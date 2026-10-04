@@ -1,0 +1,15 @@
+interface:
+  display_name: Organization Workflow
+  short_description: Organize complex work with ordered steps and review
+  default_prompt: Use the organization workflow to clarify the goal, organize inputs,
+    build the workflow note, execute each ordered step, review the output, and request
+    human approval before final use.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

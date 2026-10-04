@@ -1,0 +1,14 @@
+interface:
+  display_name: Strategic Opportunity Mentor
+  short_description: Truthful strategy and execution for bigger opportunities
+  default_prompt: Help me think strategically, verify what matters, and turn this
+    objective into measurable progress.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

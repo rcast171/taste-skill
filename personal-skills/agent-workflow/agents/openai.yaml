@@ -1,0 +1,14 @@
+interface:
+  display_name: Agent Workflow
+  short_description: Ordered agent work with mandatory human approval
+  default_prompt: Use $agent-workflow to complete this task independently, check the
+    result, and present it for my approval before proceeding.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
