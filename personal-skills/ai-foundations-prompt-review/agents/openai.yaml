@@ -1,0 +1,14 @@
+interface:
+  display_name: AI Foundations Prompt Review
+  short_description: Build grounded prompts with ordered review steps
+  default_prompt: Use $ai-foundations-prompt-review to organize my thoughts and build
+    a grounded prompt, pausing for missing information.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
